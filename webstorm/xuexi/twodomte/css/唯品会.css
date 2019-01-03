@@ -431,6 +431,17 @@ div {
     height: 13px;
 }
 
+#tb1_2 a{
+    text-decoration: none;
+}
+#tb1_2 a:link{
+    color: black;text-decoration: none;
+}
+#tb1_2 a:visited{
+    color: blue;text-decoration: none;
 
-
+}
+#tb1_2 a:hover{
+    color: #F8014F;text-decoration: none;
+}
 

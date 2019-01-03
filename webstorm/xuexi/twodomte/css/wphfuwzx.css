@@ -66,16 +66,19 @@ width: 90%;
     line-height: 25px;
     text-align: center;
     position: relative;
-    display: block;
 }
-#tb11-555{
+#tb1-555{
 height: 50px;
     width: 100px;
     position: absolute;
    display: none;
+    background-color: gainsboro;
+    font-size:  14px;
+    line-height: 50px;
+    text-align: center;
 
 }
-#tb1-55:hover + #tb11-555{
+#tb1-55:hover + #tb1-555{
     display: block;
 
 }
@@ -379,4 +382,18 @@ margin: 3px;
 
 #floot4_B p {
     font-size: 13px;
+}
+
+#tb1_2 a{
+    text-decoration: none;
+}
+#tb1_2 a:link{
+    color: black;text-decoration: none;
+}
+#tb1_2 a:visited{
+    color: blue;text-decoration: none;
+
+}
+#tb1_2 a:hover{
+    color: #F8014F;text-decoration: none;
 }

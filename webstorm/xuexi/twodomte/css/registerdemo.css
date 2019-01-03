@@ -1,7 +1,6 @@
 /*公用样式*/
 body {
     padding: 0;
-    margin-top:20px;
 
 }
 
@@ -63,7 +62,7 @@ div {
 
 #y1 {
     width: 100%;
-    height: 650px;
+    height: 670px;
     background-color: #FAA8AC;
 }
 
@@ -103,17 +102,17 @@ div {
 
 /*控制表单控制台*/
 #y2-2 {
-    height: 470px;
+    height: 560px;
     width: 35%;
     border-radius: 5px;
     background-color: #FFFFFF;
-    margin-top: 100px;
+    margin-top:45px;
 }
 
 /*从三开始为表单头部到六结束*/
 #y3 {
     width: 100%;
-    height: 60px;
+    height: 50px;
     display: flex;
     border-bottom: #CCCCCC solid;
 
@@ -121,14 +120,14 @@ div {
 
 .y3-1 {
     width: 49%;
-    height: 60px;
+    height: 50px;
     text-align: center;
-    line-height: 60px;
+    line-height: 50px;
     /*border-right: #CCCCCC solid;*/
 
 }
 #y3_1{
-    border-right: #CCCCCC solid;
+    border-bottom: #CCCCCC solid;
 }
 .y3-1 span {
     font-size: 20px;
@@ -151,14 +150,14 @@ div {
     height:auto;
 }
 
-#y4-1 {
+.y4-1 {
     width: 100%;
     height: auto;
-    padding-top 10px;
+    padding-top :10px;
 
 }
 
-#y4-1 input {
+.y4-1 input {
     width: 98%;
     height: 35px;
     margin: 30px 0 0 0;
@@ -166,9 +165,10 @@ div {
 }
 
 #y4-11 {
-    height: 40px;
+    height: 80px;
     display: flex;
     align-items: flex-end;
+
 }
 
 
@@ -188,7 +188,7 @@ div {
 #y4-2 {
     height: 40px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 50px;
     background-color: #F10582;
     border-radius: 5px;
     text-align: center;
@@ -229,14 +229,54 @@ div {
     width:100%;
 }
 #d1{
-    height: 30px;
+    height: 100px;
 
 
 }
 #d2{
-    height: 50px;
+    height: auto;
     text-align: center;
 
 }
 #d2 span{font-size:12px;}
+#yy3-1{
+    font-size: 14px;
+}
+#yy3-2{
+    font-size: 14px;color: #F8014F;
+}
 
+#y4-11 span{
+    font-size: 12px;
+}
+#y4-11 a{
+    text-decoration: none;
+}
+#yy4-1{
+    width: 50%;
+    position: relative;
+
+
+}
+#yy4-2{
+    width: 130px;
+    height: 37px;
+    position: absolute;
+    display: inline;
+    margin: 30px 6px;
+    background-color: #D0D0D0;
+   border-radius:3px;
+    line-height: 37px;
+    text-align: center;
+    font-size: 15px;
+    color: #F10582;
+}
+
+.y3-1 a{
+   text-decoration: none;
+}
+
+
+.y3-1 a:hover{
+    color: #F8014F; text-decoration: none;
+}
